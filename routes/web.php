@@ -55,6 +55,5 @@ Route::get('/news', function () {
     }
 
     $news_sections .= "</section>";
-
     echo $title . $news_sections;
 });
