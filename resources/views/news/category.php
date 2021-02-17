@@ -11,7 +11,6 @@ foreach ($news_data as $key => $news) {
     $news_sections .= "<h3>" . $news['title'] . "</h3>";
     $news_sections .= "<p>" . $news['short_desk'] . "</p>";
     $news_sections .= "</a>" . "<hr>";
-
 }
 $news_sections .= "</section>";
 

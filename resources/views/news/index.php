@@ -8,7 +8,6 @@ foreach ($category_data as $key => $category) {
     $categorys_sections .= "<li> $category </li>";
     $categorys_sections .= "</a>";
 }
-
 $categorys_sections .= "</ul>";
 
 $back = "<a href='/'>На главную</a>";

@@ -44,5 +44,4 @@ Route::group(['prefix' => 'news', 'as' => 'news.'], function (){
         ->name('category');
     Route::get('/category/{id}', [NewsController::class, 'show'])
         ->name('show');
-
 });

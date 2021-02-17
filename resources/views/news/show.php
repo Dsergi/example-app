@@ -1,7 +1,6 @@
 <?php
 $title = "<h1>" . $news['title'] . "</h1>";
 $category = "<h4>" . $news['category'] . "</h4>";
-
 $news_sections = "<section>";
 $news_sections .= "<img src='" . $news['img_url'] . "'>";
 $news_sections .= "<p>" . $news['short_desk'] . "</p>";
